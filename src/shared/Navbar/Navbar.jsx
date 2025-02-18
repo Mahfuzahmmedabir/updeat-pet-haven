@@ -20,12 +20,12 @@ const Navbars = () => {
   user;
 
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center  lg:gap-6">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-[17px]"
       >
         <NavLink to="/" className="flex items-center">
           Home
@@ -36,7 +36,7 @@ const Navbars = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-[17px]"
       >
         <NavLink to={'/petlist'} className="flex items-center">
           Pet Listing
@@ -46,16 +46,13 @@ const Navbars = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-[17px]"
       >
         <NavLink to={'/donation-campaign'} className="flex items-center">
           Donation Campaigns
         </NavLink>
       </Typography>
-    
     </ul>
-
-
   );
   return (
     <div className="">

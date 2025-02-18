@@ -75,7 +75,7 @@ const MyAddedPets = () => {
         </>
       ) : (
         <>
-          <Card className="h-full w-full">
+          <Card className="h-full w-full rounded-none">
             <CardHeader floated={false} shadow={false} className="rounded-none">
               <div className="mb-4 flex flex-col justify-between gap-8 md:flex-row md:items-center">
                 <div>

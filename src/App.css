@@ -1,4 +1,7 @@
-
-.active{
+.active {
   color: #689f38;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 7px;
 }
